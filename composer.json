@@ -1,0 +1,17 @@
+{
+    "require": {
+        "slim/slim": "^3.0",
+        "slim/http-cache": "^0.4.0",
+        "slim/twig-view": "^2.3",
+        "monolog/monolog": "^1.23",
+        "php-di/slim-bridge": "^1.0",
+        "slim/pdo": "^1.10",
+        "oscarotero/psr7-middlewares": "^3.21"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Main\\": "core/"
+        }
+    }
+}
